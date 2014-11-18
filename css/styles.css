@@ -1,3 +1,31 @@
+/*Body Styles*/
+
+/*Primary Header*/
+h1 {
+	font-family: 'Indie Flower', cursive;
+	color: #AEAC77;
+}
+
+/*Body Text*/
+
+p {
+	font-family: 'Satisfy', cursive;
+	line-height: 1.75em;
+	color: #eee;
+}
+
+/*Links*/
+a:link,
+a:visited {
+	border-bottom: double black 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+a:hover,
+a:active {
+	color: red;
+}
+
 /* Set Your Own Margin & Padding */
 h2, h3, p {
 	margin: 0;
@@ -21,6 +49,25 @@ section {
 	width: 50px;
 }
 
+/*Color Pallette*/
+.color-1 {
+	background: teal;
+}
+
+.color-2 {
+	background: cornflowerblue;
+}
+
+/*Textures*/
+
+.pattern-1 {
+	background-color: #5c008a;
+	background-image: url(http://www.transparenttextures.com/patterns/argyle.png);
+}
+
+.pattern-2 {
+	background: url("../img/texture/bg.png");
+}
 
 /* Show Grid */
 .showgrid {
