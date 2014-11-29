@@ -1,7 +1,6 @@
 /*Body Styles*/
 
 body {
-  width: 300px;
   background-color: #C6D6EC;
 	background-image: url(http://www.transparenttextures.com/patterns/subtle-grey.png);
 }
@@ -17,6 +16,8 @@ body {
 h1 {
   font-family: 'Montserrat', sans-serif;
 	color: #fff;
+	margin-bottom: 0px;
+
 }
 
 /*Body Text*/
@@ -29,6 +30,7 @@ p {
 
 em {
 	color: #C6D6EC;
+	margin-top: 10px;
 }
 
 h2, h3 {
@@ -50,7 +52,7 @@ a:active {
 
 /* Set Your Own Margin & Padding */
 h2, h3, p {
-	margin: 0;
+	margin: 0 0 4px 0;
 }
 
 .colors {
